@@ -12,7 +12,7 @@ Often, a hook is going to need a value out of context. The `useContext` hook is 
 this, but it will often required a `Provider` to be wrapped around the component using the hook. We
 can use the `wrapper` option for `renderHook` to do just that.
 
-Let's change the `useCounter` example from the [Basic Hooks section](basic-hooks) to get a
+Let's change the `useCounter` example from the [Basic Hooks section](basic-hooks.md) to get a
 `step` value from context and build a `CounterStepProvider` that allows us to set the value:
 
 ```js
